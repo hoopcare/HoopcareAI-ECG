@@ -1,0 +1,59 @@
+{
+  "source_commit": "e6720f740c9bf1b8a0d1a2467b48554d30e41287",
+  "source_tracked_changes": false,
+  "source_payload_sha256": "ac69448526156dbe80800237a1c732c8a81a82ac6dddd1f6ef81b1ff35921160",
+  "scientific_logic_changed_in_seven_analysis_scripts": false,
+  "numeric_literals_verified_unchanged_in_seven_analysis_scripts": true,
+  "private_artifacts_distributed": false,
+  "clinical_pipeline_rerun_for_this_release": false,
+  "files": [
+    {
+      "file": "scripts/chir_analyse.py",
+      "source_sha256": "7651d86f8773d8c62db93710076102c5b6c4a5f9c429e04c2b29a6cbf8febbd0",
+      "release_sha256": "1a83e854c61a098fe566ca52f378a70133060c847fd70c1dc2639aae1c036d1e",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    },
+    {
+      "file": "scripts/chir_codes.py",
+      "source_sha256": "f745c99e1776fc127bb93141fb6de8402bd8d4db7305fc0bc6b671f02ee27b5b",
+      "release_sha256": "729c29fab8925640ce8f6d50f8f2f295ba3220cd8c1e27aca1a9da766bf09fdb",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    },
+    {
+      "file": "scripts/chir_rcri.py",
+      "source_sha256": "64333fdc2fb55ae4e96da032f8086c9165d16f54074e6640c2bb9e1bf6e15593",
+      "release_sha256": "6013e2f54d615ccb25e4416cf42cd933f7d67128688551fc029f396b982a27e4",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    },
+    {
+      "file": "scripts/chir_score.py",
+      "source_sha256": "22529f32ee48e154068ac6f5b6dfeb6b6ed6e79ff7cdfd520fb80e0126bf7b25",
+      "release_sha256": "5b1042f3a0c6b81e0d3ef4cd16d800b38b447b0cddf7d3fb56a82338555fb7e0",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    },
+    {
+      "file": "scripts/joindre_echo.py",
+      "source_sha256": "c9969d59f143f40bfc36ffbac05e685884fac6e134a5e33d4221e43c86c8ecd8",
+      "release_sha256": "9438df0cbbf5750cafc0ef97fa652d5a17f089ff39a15b38284306ecf75a9072",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    },
+    {
+      "file": "scripts/rotation_memes_patients.py",
+      "source_sha256": "9a5c85cc518d67696068aebce944fc121a7a4df175f107c8b71a1780c3c52512",
+      "release_sha256": "ab936f1dec6408454bf19462d27c565a6e82cfab7c021c0c1c812a7d5f4a4db5",
+      "adaptation": "shared loader only; architecture externalized; unrelated standalone monitor experiment omitted"
+    },
+    {
+      "file": "scripts/score_3formats.py",
+      "source_sha256": "2930807cdf8bfa23612e9098f3da262026c4920ac9db08d8f723428229688a83",
+      "release_sha256": "acf6b9c7aa1dbbd2a2b7835194975ebc8217e0526befb259093833a0486c1b28",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    },
+    {
+      "file": "scripts/score_mimic_complet.py",
+      "source_sha256": "016424b47ec74d23d18b05e2c93e8c216364775fabbb0d6b1e18ea19976958a0",
+      "release_sha256": "a9c6756372b890c314ae39ff1f0a99a59ad47f9db1bd090d39e8afabda108dc5",
+      "adaptation": "path configuration and, where present, embargoed protocol identifier redaction"
+    }
+  ]
+}

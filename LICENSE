@@ -1,0 +1,65 @@
+Hoopcare Non-Commercial Research License 1.0
+SPDX-License-Identifier: LicenseRef-Hoopcare-NonCommercial-Research-1.0
+
+Copyright (c) 2026 Hoop Care Inc. and contributors.
+
+1. Scope
+This license applies to the original source code and documentation in this
+repository (the Software), except materials expressly identified as subject to
+another license. Third-party dependencies retain their own licenses. This
+license does not cover model weights, training data, patient data, third-party
+datasets, trademarks, or separately distributed model artifacts.
+
+2. Non-commercial research permission
+Subject to these terms, the copyright holders grant you a worldwide,
+non-exclusive, royalty-free copyright license to inspect, run, copy, modify,
+and redistribute the Software solely for non-commercial scientific research,
+research reproducibility, and teaching about that research.
+
+Non-commercial research means investigation conducted to advance knowledge
+without selling or licensing a product or service incorporating the Software,
+providing paid access to it, or using it to develop or support a commercial
+product or service. Academic affiliation alone does not make a commercial
+project non-commercial. Publication of research findings is permitted,
+including publication in journals that charge fees.
+
+3. Conditions
+You must preserve this license and the copyright and attribution notices in
+all copies and substantial portions of the Software. You must clearly identify
+your modifications and must not imply that the original authors endorse them.
+Redistributed copies and modifications of the Software must carry these same
+research-use restrictions. Each recipient receives permission directly under
+this license; you may not grant broader rights to the original Software.
+Independent research findings are not licensed under these terms merely
+because the Software was used to produce them.
+
+4. Uses requiring a separate agreement
+Commercial use, paid hosting, incorporation into a product or service, and
+use for individual patient diagnosis, treatment, triage, or other clinical
+decision-making are not permitted by this license. A separate written
+agreement from the applicable rights holders is required for such use.
+Contact the repository owner for licensing requests. Making source code
+public does not authorize access to or redistribution of restricted data
+or model artifacts.
+
+5. No additional rights
+No patent, trademark, data-access, regulatory, or endorsement rights are
+granted by this license. Rights that cannot lawfully be restricted, including
+applicable fair-use rights, are not restricted. The copyright holders may
+offer the Software under other terms in separate agreements.
+
+6. Termination
+These permissions end if you use or distribute the Software in breach of
+these terms. Permission may be reinstated by a written agreement with the
+applicable copyright holders. Ending permission does not remove the license
+notices or restrictions from copies already distributed.
+
+7. No warranty or liability
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, ACCURACY, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY
+LAW, THE COPYRIGHT HOLDERS AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+This is a source-available research license, not an OSI-approved open-source
+license.

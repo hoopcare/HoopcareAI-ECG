@@ -1,0 +1,2 @@
+# Synthetic input tests only; this is not the private model environment.
+numpy==2.5.5

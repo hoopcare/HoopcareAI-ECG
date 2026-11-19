@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research code, cite the software release or commit you used. Manuscript citation details will be added after publication."
+type: software
+title: "HoopcareAI-ECG: research analysis code"
+authors:
+  - family-names: Moussali
+    given-names: Yassine
+  - family-names: Bensouda Korachi
+    given-names: Gaia
+repository-code: "https://github.com/hoopcare/HoopcareAI-ECG"
+url: "https://github.com/hoopcare/HoopcareAI-ECG"
+abstract: "Research analysis code supporting the development and validation of an AI-ECG structural heart disease score and its evaluation before noncardiac surgery. Patient data and trained model weights are not distributed."
+keywords:
+  - electrocardiography
+  - structural heart disease
+  - perioperative care
+  - reproducibility

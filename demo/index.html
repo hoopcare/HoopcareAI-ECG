@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>HoopcareAI-ECG · Composite score explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="score.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">Hoopcare<span>AI-ECG</span></div>
+      <span class="eyebrow">Research tools · Local calculation</span>
+      <h1>Composite score explorer</h1>
+      <p class="intro">Supplied component scores, <strong>not ECG interpretation</strong>.</p>
+      <p class="context">Explore how five component scores combine into the study score. This demonstration uses synthetic inputs. It does not load the trained network or analyse a patient’s ECG.</p>
+    </header>
+    <div class="workspace">
+      <section class="card inputs" aria-labelledby="input-title">
+        <div class="section-label">01 / Inputs</div>
+        <h2 id="input-title">Five component scores</h2>
+        <p>Enter a calibrated probability from 0 to 1 for each component.</p>
+        <p class="small">Use the study’s lead-specific isotonic calibration, not raw sigmoid outputs. The explorer does not perform calibration. The LV hypertrophy proxy is not a diagnosis of hypertrophic cardiomyopathy.</p>
+        <form id="components" novalidate></form>
+        <div class="presets" aria-label="Synthetic examples">
+          <button type="button" data-preset="baseline">Reset synthetic example</button>
+          <button type="button" data-preset="higher">Try higher inputs</button>
+        </div>
+      </section>
+      <section class="card results" aria-labelledby="result-title">
+        <div class="section-label">02 / Composite</div>
+        <h2 id="result-title">Combined study score</h2>
+        <div id="result" aria-live="polite" aria-atomic="true">
+          <output id="score" class="score">—</output>
+          <div class="scale-label">S · scale 0–1</div>
+          <div class="track" role="presentation"><div id="score-bar"></div></div>
+          <p id="error" class="error" hidden></p>
+          <div class="flags">
+            <div><span>Diagnostic threshold <small>S ≥0.453</small></span><strong id="diagnostic">—</strong></div>
+            <div><span>Original surgical cohort’s highest-5% threshold <small>S ≥0.635</small></span><strong id="high5">—</strong></div>
+          </div>
+        </div>
+        <p class="interpretation">Flags use the unrounded score. The diagnostic cutoff targeted 90% sensitivity in validation; this is not guaranteed on new data. The higher cutoff selected the highest 5% in the original surgical cohort; it need not select 5% elsewhere. Neither flag is a clinical recommendation.</p>
+        <div class="formula"><span>How it combines</span><code>S = 1 − ∏(1 − pᵢ), i = 1…5</code></div>
+        <p class="small">The composite is not a calibrated probability of structural heart disease or postoperative MACE. Input values do not establish a diagnosis.</p>
+      </section>
+    </div>
+    <footer>Research demonstration · No upload, transmission or storage of inputs · Non-commercial research licence</footer>
+    <noscript>This explorer requires JavaScript to calculate the score locally.</noscript>
+  </main>
+</body>
+</html>
